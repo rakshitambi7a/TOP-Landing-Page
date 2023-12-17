@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.first,.footer{
+    background-color: #1f2937;
+}
+.banner-header{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+.links > ul > li > a,.banner-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+.button{
+    background-color: #3882f6;
+}
+.call-to-action{
+    background-color: #3882f6;
+}
+.title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.third{
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
