@@ -89,6 +89,10 @@ body{
     justify-content: space-between;
     gap: 16px;
 }
+.links>ul>li>a:hover{
+    font-weight: bolder;
+    text-shadow: #00000074 3px 3px 2px;
+}
 li{
     list-style-type: none;
 }
@@ -169,11 +173,13 @@ img{
     flex-direction: column;
     align-items: center;
     padding: 0;
+    
 
 }
 .description{
-    text-align:start;
+    text-align:center;
     width: 100px;
     padding: 0;
     margin: 0;
+    width: 170px;
 }
